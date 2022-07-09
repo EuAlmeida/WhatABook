@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+.logo{
+    margin-right: 20px;
+    height: 10vh;
+    width: 10vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #114B5F;
+    height: 8vh;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+.conteudo{
+    display: flex;
+    background: #6da9bd;
+    width: 100vw;
+    min-height: 92vh;
+}
+
+.search-box{
+    position: absolute;
+    right: 20vw;
+    top: 1.6vh;
+    background-color: white;
+    height: 4.5vh;
+    border-radius: 10px;
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-text{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size:18px;
+}
+.lupa{
+    position: relative;
+    right: 2.3%;
+}
+
+
+.fotoperfil{
+    position:absolute;
+    right: 2%;
+}
+.livro-grande{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    list-style: none;
+    height: 30vh;
+    width: 70vw;
+    right: 16%;
+}
+
+.revolucao{
+    position: relative;
+    width: 150px;
+    padding-right:30px;
+     
+}
+.descricao{
+    position: relative;
+    right: 0%;
+    color:#ffff
+
+}
+.edit-autor{
+    text-align: center;
+}
+.saiba-mais{
+    display: flex;
+    padding-left: 46%;
+}
+.btn-saiba{
+    padding-top: 8.7px;
+}
+.carrossel1{
+    display:table;
+    width: 100vw;
+    height: 18vh;
+    background: #114B5F;
+    transform: translate(-2.999999999999vw,160%);
+}
+.carrossel1 .switch-left,
+.carrossel1 .switch-right{
+    color:white;
+    font-weight: bold;
+    font-size: 50px;
+    height: 100%;
+}
+.switch-left{
+    display: table-cell;
+    width: 2%;
+    align-items: center;
+    vertical-align: middle;
+    transform: translate(-95vw,0%);
+}
+.switch-right{
+    display: table-cell;
+    width: 2%;
+    align-items: center;
+    vertical-align: middle;
+    transform: translate( -1vw,0%);
+}
+.carrosselbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    height: 20vh;
+    width: 100vw;
+    background-color: #114B5F;
+    transform: translateX(2.999vw);
+
+    
+}
+.carrosselbox .img{
+    object-fit: cover;
+    height: 15vh;
+    width: 5vw;
+    padding-right:6vw;
+    transform: translateX(4vw);
+}
+.img:hover{
+    height:18vh ;
+    width: 7vw;
+    transition: 0.27s;
+}
+
+
+
